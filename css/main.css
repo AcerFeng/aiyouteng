@@ -1,0 +1,282 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding-top: 50px;
+    color: #5a5a5a;
+    background-color: #3A3C40;
+}
+
+#my-navbar {
+  
+}
+
+.mid-header {
+    margin: 4rem 0;
+    color: #ecf0f1;
+}
+
+#myTab li  {
+  /*background-color: #2C3441;*/
+
+}
+
+#myTab .active {
+  background-color: #2D2E31;
+}
+
+#myTab .active a {
+  background-color: #2D2E31;
+  color: #5FE1C7;
+}
+
+#myTab li a:hover {
+  background-color: #2D2E31;
+  color: #5FE1C7;
+}
+
+#myTab li a {
+  color: #eeffff;
+  background-color: 
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.content .container-fluid {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.navbar-default {
+  background-color: #3a3c40;
+  border-color: #111111;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #77ffee;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #77ffee;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #77ffee;
+  background-color: #111111;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #77ffee;
+  background-color: #111111;
+}
+.navbar-default .navbar-toggle {
+  border-color: #111111;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #111111;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #77ffee;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #77ffee;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #77ffee;
+    background-color: #111111;
+  }
+}
+
+
+.carousel {
+    height: 38rem;
+}
+
+.carousel .item {
+    height: 38rem;
+    background-color: #000;
+}
+
+.carousel .item img {
+    width: 100%;
+}
+
+.carousel-caption p {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+#search-bar input {
+    width: 25rem;
+    background-color: #3A3C40;
+    color: #7fe;
+}
+
+#search-bar button {
+    background-color: #3A3C40;
+    color: #eff;
+}
+
+.tab-content .container-fluid .row {
+    margin: 0;
+}
+
+.video-module {
+    margin-top: 1rem;
+}
+
+.list-box {}
+
+.triangel {}
+
+.triangel img {
+    width: 100%;
+}
+
+/*.tx-list {
+  background-color: #2C3441;
+}*/
+
+.video-container {
+  background-color: #242629;
+}
+
+.icon-header {
+    /*border: 0.1rem solid #ccc;*/
+    padding: 1rem;
+}
+
+.icon-header .img-box {
+    margin: 2rem auto;
+    height: 4rem;
+    width: 14rem;
+}
+
+.icon-header .img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.video-list {
+    /*border: 0.1rem solid #ccc;*/
+    padding-top: 1rem;
+}
+
+.video-list ul {
+    padding: 0;
+}
+
+.video-list ul li {
+    padding: 0 0.7rem;
+}
+
+.video-item {
+    margin-bottom: 1.2rem;
+}
+
+.video-item img {
+    width: 100%;
+}
+
+.update-status {
+    line-height: 1rem;
+    margin-top: -1.5rem;
+    padding-left: 0.8rem;
+    color: #999;
+    font-size: 1rem;
+}
+
+.item-bottom {
+    margin-top: 1rem;
+}
+
+.item-bottom a {
+    text-decoration: none;
+    color: #000;
+}
+
+.item-bottom a:hover {
+    color: #09F;
+}
+
+.item-bottom a * {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.item-bottom .video-name {
+    margin: 0 auto;
+    color: #eff;
+}
+
+.item-bottom .sub-title {
+    font-size: 1rem;
+    margin: 0.3rem auto 0;
+    color: #999;
+}
+
+hr.feature-divider {
+        margin: 4rem 0;
+      }
+
+#summray {
+    margin: 5rem auto;
+}
+
+.feature-heading {
+    font-size: 5rem;
+    color: #2a6496;
+}
+
+.feature-heading .text-muted {
+    font-size: 2.8rem;
+}
+
+footer {
+    margin-top: 4rem;
+    height: 20rem;
+    background-color: #242629;
+}
+
+footer .friend-link {
+    margin: 5rem auto;
+}
