@@ -280,3 +280,41 @@ footer {
 footer .friend-link {
     margin: 5rem auto;
 }
+
+
+.left-side {
+  background-color: #000;
+  width: 230px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: -100px;
+  background-color: #171717;
+  padding: 31px 0;
+  color: #ccc
+}
+
+.left-side .logo  {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.left-side .logo img {
+  width: 114px;
+  display: block;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.left-side .left-side-description {
+  color: #686886;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.left-side .nav-item {
+  border-top: 1px solid #1f1f1f;
+}
+
