@@ -314,7 +314,32 @@ footer .friend-link {
   text-align: center;
 }
 
-.left-side .nav-item {
+.left-side .side-item {
   border-top: 1px solid #1f1f1f;
+}
+
+.left-side .side-item a {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.left-side .side-item a span {
+  text-align: center;
+  position: relative;
+  top: -2px;
+}
+
+.left-side .active {
+  background-color: #fff;
+}
+
+.left-side .active>a {
+  color: #000;
+} 
+
+.left-side ul {
+  display: none;
 }
 
