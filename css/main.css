@@ -356,6 +356,7 @@ footer .friend-link {
 }
 
 .left-side .side-tag {
+  display: none;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -399,9 +400,15 @@ footer .friend-link {
     color: #fff;
 }
 
-@media screen and (min-height: 500px) {
+@media screen and (min-height: 600px) {
   .left-side .side-tag {
     max-height: 150px;
   }
 }
 
+
+@media screen and (max-height: 750px) {
+  .left-side .side-tag {
+    height: 0px;
+  }
+}
