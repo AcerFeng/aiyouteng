@@ -400,6 +400,14 @@ footer .friend-link {
     color: #fff;
 }
 
+.navbar {
+  left: 230px;
+}
+
+.navbar .nav {
+  overflow: hidden;
+}
+
 @media screen and (min-height: 600px) {
   .left-side .side-tag {
     max-height: 150px;
@@ -410,5 +418,14 @@ footer .friend-link {
 @media screen and (max-height: 750px) {
   .left-side .side-tag {
     height: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left-side {
+    left: -230px;
+  }
+  .navbar {
+    left: 0px;
   }
 }
