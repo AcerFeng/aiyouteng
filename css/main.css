@@ -7,6 +7,20 @@ li{list-style:none}
 img{border:0;vertical-align:middle} 
 table{border-collapse:collapse;border-spacing:0} 
 p{word-wrap:break-word}
+/*css为clearfix，清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/
+}
 
 html {
     font-size: 62.5%;
@@ -132,24 +146,29 @@ body {
     color: #eff;
 }
 
-.video-container {
-  background-color: #242629;
+.videos-content {
+  padding-top: 2rem;
+}
+
+.video-module .module-title {
+  font-size: 1.7rem;
+  color: #fff;
 }
 
 .video-list {
-    /*border: 0.1rem solid #ccc;*/
-    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
-.video-list ul {
+/*.video-list ul {
     padding: 0;
-}
+}*/
 
-.video-list ul li {
+/*.video-list ul li {
     padding: 0 0.7rem;
-}
+}*/
 
 .video-item {
+    /*padding: 0.3rem;*/
     margin-bottom: 1.2rem;
 }
 
@@ -157,12 +176,17 @@ body {
     width: 100%;
 }
 
+.video-item a:hover{
+  text-decoration:none;
+} 
+
 .update-status {
     line-height: 1rem;
     margin-top: -1.5rem;
-    padding-left: 0.8rem;
+    padding-left: 0.2rem;
     color: #999;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 .item-bottom {
@@ -187,10 +211,11 @@ body {
 .item-bottom .video-name {
     margin: 0 auto;
     color: #eff;
+    font-size: 1.4rem;
 }
 
-.item-bottom .sub-title {
-    font-size: 1rem;
+.item-bottom .video-subtitle {
+    font-size: 1.1rem;
     margin: 0.3rem auto 0;
     color: #999;
 }
