@@ -18,52 +18,6 @@ body {
     background-color: #3A3C40;
 }
 
-#my-navbar {
-  
-}
-
-.mid-header {
-    margin: 4rem 0;
-    color: #ecf0f1;
-}
-
-#myTab li  {
-  /*background-color: #2C3441;*/
-
-}
-
-#myTab .active {
-  background-color: #2D2E31;
-}
-
-#myTab .active a {
-  background-color: #2D2E31;
-  color: #5FE1C7;
-}
-
-#myTab li a:hover {
-  background-color: #2D2E31;
-  color: #5FE1C7;
-}
-
-#myTab li a {
-  color: #eeffff;
-  background-color: 
-}
-
-.content {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.content .container-fluid {
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    padding: 0;
-}
-
 .navbar-default {
   background-color: #3a3c40;
   border-color: #111111;
@@ -178,44 +132,8 @@ body {
     color: #eff;
 }
 
-.tab-content .container-fluid .row {
-    margin: 0;
-}
-
-.video-module {
-    margin-top: 1rem;
-}
-
-.list-box {}
-
-.triangel {}
-
-.triangel img {
-    width: 100%;
-}
-
-/*.tx-list {
-  background-color: #2C3441;
-}*/
-
 .video-container {
   background-color: #242629;
-}
-
-.icon-header {
-    /*border: 0.1rem solid #ccc;*/
-    padding: 1rem;
-}
-
-.icon-header .img-box {
-    margin: 2rem auto;
-    height: 4rem;
-    width: 14rem;
-}
-
-.icon-header .img-box img {
-    width: 100%;
-    height: 100%;
 }
 
 .video-list {
