@@ -153,19 +153,21 @@ body {
 .video-module .module-title {
   font-size: 1.7rem;
   color: #fff;
+  padding-left: 1.2rem;
 }
 
 .video-list {
     margin-top: 1rem;
 }
 
-/*.video-list ul {
-    padding: 0;
-}*/
+.video-list ul {
+    /*padding: 0;*/
+}
 
-/*.video-list ul li {
-    padding: 0 0.7rem;
-}*/
+.video-list ul li {
+    /*padding: 0 0.7rem;*/
+    /*padding: 0.2rem;*/
+}
 
 .video-item {
     /*padding: 0.3rem;*/
