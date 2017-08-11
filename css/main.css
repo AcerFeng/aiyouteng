@@ -107,8 +107,9 @@ body {
 }
 
 .right-content {
-  position: absolute;
-  left: 230px;
+  /*position: absolute;
+  left: 230px;*/
+  margin-left: 230px;
 }
 
 .right-item {
@@ -148,6 +149,8 @@ body {
 
 .videos-content {
   padding-top: 2rem;
+  max-width: 110rem;
+  margin: 0 auto;
 }
 
 .video-module .module-title {
@@ -170,7 +173,6 @@ body {
 }
 
 .video-item {
-    /*padding: 0.3rem;*/
     margin-bottom: 1.2rem;
 }
 
@@ -390,9 +392,12 @@ footer .friend-link {
     left: -230px;
   }
   .right-content {
-    left: 0px;
+    margin: 0 auto;
+    max-width: 600px;
   }
   .right-item {
     left: 0px;
   }
 }
+
+
