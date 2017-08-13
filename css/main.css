@@ -153,6 +153,10 @@ body {
   margin: 0 auto;
 }
 
+.video-module {
+  margin-top: 2rem;
+}
+
 .video-module .module-title {
   font-size: 1.7rem;
   color: #fff;
@@ -381,7 +385,7 @@ footer .friend-link {
 }
 
 
-@media screen and (max-height: 750px) {
+@media screen and (max-height: 700px) {
   .left-side .side-tag {
     height: 0px;
   }
