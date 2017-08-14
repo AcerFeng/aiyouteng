@@ -311,9 +311,6 @@ footer .friend-link {
   text-align: center;
   position: relative;
   top: -2px;
-}
-
-.left-side .side-item a>span {
   display: block;
 }
 
@@ -337,6 +334,14 @@ footer .friend-link {
   text-align: center;
   overflow: scroll;
   overflow-x: hidden;
+}
+
+.left-side .side-tag .active {
+  background: #222;
+}
+
+.left-side .side-tag .active a {
+  color: #fff;
 }
 
 .left-side .side-tag li a {

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="http://v3.bootcss.com/assets/css/docs.min.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,7 +34,7 @@
                 <b>首页 Home</b>
             </a>
         </div>
-        <ul class="side-tag myScrollBar" style="display: block;">
+        <ul class="side-tag myScrollBar">
             <li>
                 <a href="#热门推荐">
                     <span class="glyphicon glyphicon-fire">      热门推荐</span>
@@ -292,6 +294,7 @@
         <div class="videos-content">
             <div class="main">
                 <div class="video-module">
+                    <a id="热门推荐"></a>
                     <div class="module-title"><span>热门推荐</span></div>
                     <div class="video-list">
                         <div class="container-fluid">
@@ -471,7 +474,8 @@
                     </div>
                 </div>
                 <div class="video-module">
-                    <div class="module-title"><span>热门推荐</span></div>
+                    <a id="大家在看"></a>
+                    <div class="module-title"><span>大家在看</span></div>
                     <div class="video-list">
                         <div class="container-fluid">
                             <div class="row">
@@ -650,7 +654,188 @@
                     </div>
                 </div>
                 <div class="video-module">
-                    <div class="module-title"><span>热门推荐</span></div>
+                    <a id="电影大片"></a>
+                    <div class="module-title"><span>电影大片</span></div>
+                    <div class="video-list">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <ul class="figures_list">
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                        <div class="video-item ">
+                                            <a href="#">
+                                                <img src="http://puui.qpic.cn/vcover_vt_pic/0/dhzimk1qzznf3011500377598/220" alt="楚乔传">
+                                                <p class="update-status">更新至25集</p>
+                                            </a>
+                                            <div class="item-bottom">
+                                                <a href="https://www.baidu.com">
+                                                    <p class="video-name">楚乔传</p>
+                                                    <p class="video-subtitle">主演：潘玮柏 王力宏 张一山</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-module">
+                    <a id="电视剧"></a>
+                    <div class="module-title"><span>电视剧</span></div>
                     <div class="video-list">
                         <div class="container-fluid">
                             <div class="row">
